@@ -1,4 +1,6 @@
-let price = prompt("Enter a price tag (49.99)")
+let price = prompt("Enter a price tag ($49.99)")
+
+price = price.slice(1)
 
 price = Number(price);
 
